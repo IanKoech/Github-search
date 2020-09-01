@@ -24,7 +24,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [ProfileServiceService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
