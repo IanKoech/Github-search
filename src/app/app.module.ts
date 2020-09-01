@@ -10,7 +10,9 @@ import { ProfileComponent } from './profile/profile.component';
 import {ProfileServiceService} from '../app/profile-service.service';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UserInfoComponent } from './user-info/user-info.component';
-import { DateCountPipe } from './date-count.pipe'; 
+import { DateCountPipe } from './date-count.pipe';
+import { RepoListComponent } from './repo-list/repo-list.component';
+import { HighlightDirective } from './highlight.directive'; 
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { DateCountPipe } from './date-count.pipe';
     NotFoundComponent,
     UserInfoComponent,
     DateCountPipe,
+    RepoListComponent,
+    HighlightDirective,
     
   ],
   imports: [
