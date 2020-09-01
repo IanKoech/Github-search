@@ -40,9 +40,10 @@ export class ProfileServiceService {
       },(error)=>{
         reject();
       }
-      
-    )
+      );
+    });
   }
+}
 
   /**Add the personal access token
    * Add a  method that enables searching of github user

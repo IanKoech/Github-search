@@ -8,7 +8,9 @@ import { AppComponent } from './app.component';
 import { GithubFormComponent } from './github-form/github-form.component';
 import { ProfileComponent } from './profile/profile.component';
 import {ProfileServiceService} from '../app/profile-service.service';
-import { NotFoundComponent } from './not-found/not-found.component'; 
+import { NotFoundComponent } from './not-found/not-found.component';
+import { UserInfoComponent } from './user-info/user-info.component';
+import { DateCountPipe } from './date-count.pipe'; 
 
 @NgModule({
   declarations: [
@@ -16,6 +18,8 @@ import { NotFoundComponent } from './not-found/not-found.component';
     GithubFormComponent,
     ProfileComponent,
     NotFoundComponent,
+    UserInfoComponent,
+    DateCountPipe,
     
   ],
   imports: [

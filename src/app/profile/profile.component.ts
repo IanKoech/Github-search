@@ -10,12 +10,9 @@ export class ProfileComponent implements OnInit {
   profile:any;
   userName:string;
   constructor(private profileServie:ProfileServiceService) { 
-    this.profileServie.changeProfile(this.userName);
+    
     console.log('Service works');
-    this.profileServie.showProfileInfo();
-    this.profileServie.getUserInfo().subscribe(profile=>{
-      this.profile=profile;
-    });  
+      
   }
 
 
