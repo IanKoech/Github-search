@@ -7,13 +7,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubFormComponent } from './github-form/github-form.component';
 import { ProfileComponent } from './profile/profile.component';
-import {ProfileServiceService} from '../app/profile-service.service'; 
+import {ProfileServiceService} from '../app/profile-service.service';
+import { NotFoundComponent } from './not-found/not-found.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubFormComponent,
     ProfileComponent,
+    NotFoundComponent,
     
   ],
   imports: [

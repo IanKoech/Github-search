@@ -4,11 +4,11 @@
             <div class="form-group">
                 <label for="personName">Enter the person's github user name:</label>
                 <br>
-                <input type="text" id="personName" placeholder="Github User name" name="personName">
+                <input type="text" id="personName" placeholder="Github User name" name="personName" #personName="ngModel"  [(ngModel)]=personName>
                 <p></p>
             </div>
             
-            <button type="submit" class="btn btn-success">Search</button>
+            <button type="submit" class="btn btn-success" (click)="searchGithubUser()">Search</button>
         </form>
     </div>
 </div>
