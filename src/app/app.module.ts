@@ -6,7 +6,6 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GithubFormComponent } from './github-form/github-form.component';
-import { GithubComponent } from './github/github.component';
 import { ProfileComponent } from './profile/profile.component';
 import {ProfileServiceService} from '../app/profile-service.service'; 
 
@@ -14,7 +13,6 @@ import {ProfileServiceService} from '../app/profile-service.service';
   declarations: [
     AppComponent,
     GithubFormComponent,
-    GithubComponent,
     ProfileComponent,
     
   ],

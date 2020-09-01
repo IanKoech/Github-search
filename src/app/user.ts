@@ -1,7 +1,12 @@
 export class User {
-    constructor(public userName:string,public followers:number,public following:number){
-        this.userName=userName;
-        this.followers=followers;
-        this.following=following
-    }
+    avatar_url: any;
+    login: any;
+    bio: any;
+    name: any;
+    company: any;
+    location: any;
+    followers: any;
+    following: any;
+    dateCreated: Date;
+    public_repos: any;
 }
